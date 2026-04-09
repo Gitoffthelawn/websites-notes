@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Keyboard shortcut to open pop-up using the default tab chosen or to close the popup when it\'s opened',
     'open-popup-domain-shortcut-text': 'Klávesová zkratka pro otevření vyskakovacího okna pomocí panelu domény',
     'open-popup-page-shortcut-text': 'Klávesová zkratka pro otevření vyskakovacího okna pomocí záložky stránky',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Příkaz <unk>',
     'label-alt-default': 'Alt',

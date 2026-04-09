@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Keyboard shortcut to open pop-up using the default tab chosen or to close the popup when it\'s opened',
     'open-popup-domain-shortcut-text': 'Tastatursnarvei som åpner pop-up ved å bruke domenefanen',
     'open-popup-page-shortcut-text': 'Tastatursnarvei som åpner pop-up ved å bruke sidemerket',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Kommando aire',
     'label-alt-default': 'Alt',

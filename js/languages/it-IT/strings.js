@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Scorciatoia da tastiera per aprire la finestra pop-up usando la scheda predefinita o per chiudere la finestra pop-up quando la stessa è aperta',
     'open-popup-domain-shortcut-text': 'Scorciatoia da tastiera per aprire pop-up utilizzando la scheda dominio',
     'open-popup-page-shortcut-text': 'Scorciatoia da tastiera per aprire pop-up utilizzando la scheda della pagina',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Command ⌘',
     'label-alt-default': 'Alt',

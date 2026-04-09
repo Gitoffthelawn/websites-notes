@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Keyboard shortcut to open pop-up using the default tab chosen or to close the popup when it\'s opened',
     'open-popup-domain-shortcut-text': 'Scurtătură tastatură pentru a deschide pop-up folosind tab-ul domeniului',
     'open-popup-page-shortcut-text': 'Scurtătură tastatură pentru a deschide pop-up folosind fila de pagină',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Comanda ES',
     'label-alt-default': 'Alt',

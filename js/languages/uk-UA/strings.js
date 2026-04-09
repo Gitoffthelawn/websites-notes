@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Keyboard shortcut to open pop-up using the default tab chosen or to close the popup when it\'s opened',
     'open-popup-domain-shortcut-text': 'Поєднання клавіш для відкриття спливаючого вікна з внесенням домену',
     'open-popup-page-shortcut-text': 'Поєднання клавіатури, щоб відкрити спливаюче вікно зі сторінкою',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Сtrl',
     'label-ctrl-mac': 'Командування LTE',
     'label-alt-default': 'Alt',

@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Сочетание клавиш для открытия всплывающего окна с выбранной по умолчанию вкладкой или для его закрытия, если оно уже открыто',
     'open-popup-domain-shortcut-text': 'Ярлык клавиатуры для открытия всплывающего окна с помощью вкладки домена',
     'open-popup-page-shortcut-text': 'Ярлык клавиатуры для открытия всплывающего окна при помощи вкладки страницы',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Команда <unk>',
     'label-alt-default': 'Alt',

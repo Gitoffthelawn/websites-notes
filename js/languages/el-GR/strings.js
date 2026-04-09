@@ -165,6 +165,7 @@ strings[lang] = {
     'open-popup-default-shortcut-text': 'Keyboard shortcut to open pop-up using the default tab chosen or to close the popup when it\'s opened',
     'open-popup-domain-shortcut-text': 'Συντόμευση πληκτρολογίου για άνοιγμα αναδυόμενου παραθύρου χρησιμοποιώντας την καρτέλα τομέα',
     'open-popup-page-shortcut-text': 'Συντόμευση πληκτρολογίου για άνοιγμα αναδυόμενου παραθύρου χρησιμοποιώντας την καρτέλα σελίδας',
+    'open-popup-sidebar-shortcut-text': 'Keyboard shortcut to open the sidebar using the default tab chosen or to close the sidebar when it\'s opened',
     'label-ctrl-default': 'Ctrl',
     'label-ctrl-mac': 'Εντολή;',
     'label-alt-default': 'Alt',

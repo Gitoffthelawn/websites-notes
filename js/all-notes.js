@@ -78,12 +78,84 @@ function hideAllDropdowns(event) {
 // Chiudi tutte le dropdown allo scroll
 window.addEventListener("scroll", hideAllDropdowns, true);
 
+function checkDonationAlert(times) {
+    if (times >= 1000) {
+        browser.storage.local.get(["donation-popup-choice", "donation-popup-remind-date"], function (result) {
+            let choice = result["donation-popup-choice"];
+            let remindDate = result["donation-popup-remind-date"];
+            let show = false;
+
+            if (choice === undefined) {
+                show = true;
+            } else if (choice === "remind") {
+                if (new Date().getTime() > remindDate) {
+                    show = true;
+                }
+            }
+
+            if (show) {
+                let section = document.getElementById("donation-alert-section");
+                let background = document.getElementById("background-opacity");
+
+                section.style.display = "block";
+                background.style.display = "block";
+
+                let title = document.getElementById("donation-title");
+                title.textContent = all_strings["donation-alert-title"];
+                let description = document.getElementById("donation-text");
+                description.innerHTML = all_strings["donation-alert-text-long"].replace("{{times}}", times);
+
+                let buttonBuy = document.getElementById("donation-buy-button");
+                buttonBuy.value = all_strings["donation-alert-button-1"];
+                buttonBuy.onclick = function () {
+                    section.style.display = "none";
+                    background.style.display = "none";
+                    browser.tabs.create({url: "https://liberapay.com/Sav22999/donate"});
+                    browser.storage.local.set({"donation-popup-choice": "never"});
+                }
+
+                let buttonRemind = document.getElementById("donation-remind-button");
+                buttonRemind.value = all_strings["donation-alert-button-2"];
+                buttonRemind.onclick = function () {
+                    section.style.display = "none";
+                    background.style.display = "none";
+                    let thirtyDays = new Date().getTime() + (30 * 24 * 60 * 60 * 1000);
+                    browser.storage.local.set({
+                        "donation-popup-choice": "remind",
+                        "donation-popup-remind-date": thirtyDays
+                    });
+                }
+
+                let buttonNever = document.getElementById("donation-never-button");
+                buttonNever.value = all_strings["donation-alert-button-3"];
+                buttonNever.onclick = function () {
+                    section.style.display = "none";
+                    background.style.display = "none";
+                    browser.storage.local.set({"donation-popup-choice": "never"});
+                }
+
+                window.addEventListener("keydown", function (e) {
+                    if (e.key === "Escape") {
+                        section.style.display = "none";
+                        background.style.display = "none";
+                    }
+                });
+            }
+        });
+    }
+}
+
 function checkSyncLocal() {
     sync_local = browser.storage.local;
     checkTheme();
 }
 
 function loaded() {
+    sync_local.get("times-opened").then(result => {
+        if (result !== undefined && result["times-opened"] !== undefined) {
+            checkDonationAlert(result["times-opened"]);
+        }
+    });
     browser.storage.sync.get("privacy").then(result => {
         if (result.privacy === undefined) {
             //not accepted privacy policy -> open 'privacy' page

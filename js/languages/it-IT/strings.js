@@ -417,5 +417,11 @@ strings[lang] = {
         'description11': 'Raccogliamo solo i dati necessari per fornire il servizio – come note, impostazioni, indirizzo IP, ….',
         'description12': 'Nessuna condivisione',
         'description13': 'Non condividiamo i tuoi dati con terze parti.'
-    }
+    },
+    'donation-alert-title': 'Ti piace Notefox?',
+    'donation-alert-text': 'L\'hai già aperto <b>{{times}}</b> volte! Notefox è gratuito e open-source: anche una piccola donazione ricorrente fa la differenza per mantenere il progetto vivo.',
+    'donation-alert-text-long': 'Hai aperto Notefox ben <b>{{times}}</b> volte! Spero che ti stia aiutando a organizzare le tue note sul web. Notefox è un progetto open-source gratuito che vive grazie al supporto degli utenti. Anche una piccola donazione continuativa è più importante che nulla per sostenere i costi e lo sviluppo di nuove funzionalità.',
+    'donation-alert-button-1': 'Sostieni il progetto',
+    'donation-alert-button-2': 'Ricordamelo tra un mese',
+    'donation-alert-button-3': 'Non mostrarlo più',
 };

@@ -9,7 +9,7 @@ Created by Saverio Morelli - saveriomorelli.com
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
-<body>
+<body id="popup-body">
 <div class="splash-screen" id="splash-screen-popup">
     <img src="./img/logo-orange.svg"/>
     <div class="lds-spinner" id="loading-splash-screen">
@@ -111,6 +111,21 @@ Created by Saverio Morelli - saveriomorelli.com
         <div id="notefox-server-error-buttons" class="padding-10 text-align-right">
             <input type="button" value="" id="notefox-server-error-button1" class="button logout-button" tabindex="1"/>
             <input type="button" value="" id="notefox-server-error-button2" class="button" tabindex="2"/>
+        </div>
+    </div>
+</div>
+<!--donation popup-->
+<div id="donation-alert-section" class="message-popup">
+    <div id="donation-alert-content" class="section message-popup-content">
+        <div id="donation-title" class="padding-10 message-popup-content-title"></div>
+        <div id="donation-text" class="padding-10 message-popup-content-description"></div>
+        <div id="donation-buttons" class="padding-10 text-align-right message-popup-content-buttons">
+            <input type="button" value="" id="donation-buy-button"
+                   class="button" tabindex="2"/>
+            <input type="button" value="" id="donation-remind-button"
+                   class="button" tabindex="1"/>
+            <input type="button" value="" id="donation-never-button"
+                   class="button" tabindex="1"/>
         </div>
     </div>
 </div>

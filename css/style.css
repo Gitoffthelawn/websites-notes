@@ -1467,6 +1467,12 @@ pre::placeholder,
     padding: 10px;
 }
 
+#popup-body #donation-buttons .button {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 #import-sub-sections,
 #export-sub-sections,
 #account-sub-sections,

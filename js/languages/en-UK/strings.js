@@ -415,5 +415,11 @@ strings[lang] = {
         "description11": "We only collect the data that is necessary to provide the service – such as notes, settings, IP address, ….",
         "description12": "Nothing is shared",
         "description13": "We don't share your data with third parties.",
-    }
-}
+    },
+    'donation-alert-title': 'Enjoying Notefox?',
+    'donation-alert-text': 'You have already opened it <b>{{times}}</b> times! Notefox is free and open-source: even a small recurring donation makes a difference in keeping the project alive.',
+    'donation-alert-text-long': 'You have opened Notefox <b>{{times}}</b> times! I hope it is helping you organize your notes on the web. Notefox is a free open-source project that lives thanks to user support. Even a small continuous donation is more important than nothing to support costs and the development of new features.',
+    'donation-alert-button-1': 'Support the project',
+    'donation-alert-button-2': 'Remind me in a month',
+    'donation-alert-button-3': 'Do not show it anymore',
+};

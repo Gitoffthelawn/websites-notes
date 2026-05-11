@@ -2136,6 +2136,7 @@ strong {
     background: inherit;
 }
 
+mark,
 #notes mark,
 .textarea-all-notes mark {
     background-color: var(--tertiary-transparent);

@@ -417,5 +417,11 @@ strings[lang] = {
         'description11': 'Wir sammeln nur die Daten, die für die Bereitstellung des Dienstes notwendig sind – wie Notizen, Einstellungen, IP-Adresse, ….',
         'description12': 'Nichts wird geteilt',
         'description13': 'Wir geben deine Daten nicht an Dritte weiter.'
-    }
+    },
+    'donation-alert-title': 'Enjoying Notefox?',
+    'donation-alert-text': 'You have already opened it <mark><b>{{times}}</b></mark> times! Notefox is free and open-source: even a <mark>small recurring donation makes a difference</mark> in keeping the project alive.',
+    'donation-alert-text-long': 'You have opened Notefox <mark><b>{{times}}</b></mark> times! I hope it is helping you organize your notes on the web. <mark>Notefox</mark> is a free open-source project that <mark>lives thanks to user support</mark>. Even a small continuous donation is more important than nothing to support costs and the development of new features.',
+    'donation-alert-button-1': 'Support the project',
+    'donation-alert-button-2': 'Remind me in a month',
+    'donation-alert-button-3': 'Do not show it anymore'
 };

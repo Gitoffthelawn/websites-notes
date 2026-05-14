@@ -418,10 +418,10 @@ strings[lang] = {
         'description12': 'Nessuna condivisione',
         'description13': 'Non condividiamo i tuoi dati con terze parti.'
     },
-    'donation-alert-title': 'Ti piace Notefox?',
-    'donation-alert-text': 'L\'hai già aperto <b>{{times}}</b> volte! Notefox è gratuito e open-source: anche una piccola donazione ricorrente fa la differenza per mantenere il progetto vivo.',
-    'donation-alert-text-long': 'Hai aperto Notefox ben <b>{{times}}</b> volte! Spero che ti stia aiutando a organizzare le tue note sul web. Notefox è un progetto open-source gratuito che vive grazie al supporto degli utenti. Anche una piccola donazione continuativa è più importante che nulla per sostenere i costi e lo sviluppo di nuove funzionalità.',
-    'donation-alert-button-1': 'Sostieni il progetto',
-    'donation-alert-button-2': 'Ricordamelo tra un mese',
-    'donation-alert-button-3': 'Non mostrarlo più',
+    'donation-alert-title': 'Enjoying Notefox?',
+    'donation-alert-text': 'You have already opened it <mark><b>{{times}}</b></mark> times! Notefox is free and open-source: even a <mark>small recurring donation makes a difference</mark> in keeping the project alive.',
+    'donation-alert-text-long': 'You have opened Notefox <mark><b>{{times}}</b></mark> times! I hope it is helping you organize your notes on the web. <mark>Notefox</mark> is a free open-source project that <mark>lives thanks to user support</mark>. Even a small continuous donation is more important than nothing to support costs and the development of new features.',
+    'donation-alert-button-1': 'Support the project',
+    'donation-alert-button-2': 'Remind me in a month',
+    'donation-alert-button-3': 'Do not show it anymore'
 };

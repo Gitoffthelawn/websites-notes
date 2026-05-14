@@ -2,7 +2,7 @@ lang = 'hu';
 strings[lang] = {};
 strings[lang] = {
     'all-notes-title': 'All notes',
-    'all-notes-title-page': 'Notefox - All notes',
+    'all-notes-title-page': '😊',
     'export-all-notes-button': 'Export data…',
     'export-notes-to-file-button': 'Export directly to file',
     'exported-notes-to-file-button': 'Exported to file',
@@ -10,7 +10,7 @@ strings[lang] = {
     'import-notes-from-file-button': 'Import from file…',
     'refresh-data-button': 'Refresh data',
     'clear-all-notes-button': 'Összes adat törlése',
-    'import-json-message-dialog-text': 'Paste here the JSON (or text) file content you exported previously, then click the <span {{parameters}}>Import now</span> button. The page will be automatically reloaded if notes are successfully imported.',
+    'import-json-message-dialog-text': '<span {{parameters}}>Paste here the JSON (or text) file content you exported previously, then click the <span {{parameters}}>Import no</span> button. The page will be automatically reloaded if notes are successfully imported.',
     'link-text-to-display-label': 'Text to display',
     'link-url-label': 'Link',
     'cancel-button': 'Mégse',
@@ -417,5 +417,11 @@ strings[lang] = {
         'description11': 'We only collect the data that is necessary to provide the service – such as notes, settings, IP address, ….',
         'description12': 'Nothing is shared',
         'description13': 'We don\'t share your data with third parties.'
-    }
+    },
+    'donation-alert-title': 'Enjoying Notefox?',
+    'donation-alert-text': 'You have already opened it <mark><b>{{times}}</b></mark> times! Notefox is free and open-source: even a <mark>small recurring donation makes a difference</mark> in keeping the project alive.',
+    'donation-alert-text-long': 'You have opened Notefox <mark><b>{{times}}</b></mark> times! I hope it is helping you organize your notes on the web. <mark>Notefox</mark> is a free open-source project that <mark>lives thanks to user support</mark>. Even a small continuous donation is more important than nothing to support costs and the development of new features.',
+    'donation-alert-button-1': 'Support the project',
+    'donation-alert-button-2': 'Remind me in a month',
+    'donation-alert-button-3': 'Do not show it anymore'
 };
